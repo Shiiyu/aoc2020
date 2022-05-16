@@ -3,7 +3,9 @@ fn main() {
 
   for i in input.iter() {
     for j in input.iter() {
-      if i + j == 2020 {
+      if i == j {
+        continue;
+      } else if i + j == 2020 {
         return println!("Expense Report: {}", i * j);
       }
     }
