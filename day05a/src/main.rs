@@ -1,4 +1,4 @@
-pub fn main() {
+fn main() {
   println!(
     "Highest Seat ID: {}",
     include_bytes!("../input.txt")
